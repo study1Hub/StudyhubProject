@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<style>
+img{
+   width: 90px;
+   position: absolute;
+   height: 40px;
+   top: 5px;
+   left: 2%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: Crimson;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: blue;
+}
+
+.active {
+  background-color: blue;
+}
+.h{
+   text-align:center;
+   color:LightGreen;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+background: url(bg.jpg) no-repeat center;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px; 
+
+}
+
+.about-section {
+  padding: 20px;
+  text-align: center;
+  background: bg.jpg ;
+  color:blue;
+}
+   
+
+.container {
+  padding: 0 16px;
+  
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+    
+  }
+
+.myDiv {
+  border: 5px outset red;   
+  text-align: center;
+  
+}
+
+a{
+  text-decoration:none;
+  outline: none;
+}
+.useful{
+   text-align: center;
+}
+.li{
+  color: blue;
+}
+
+</style>
+<body>
+<img src="slogo.jpg">
+<ul>
+  
+  
+  <li style="float:right"><a href="contact us.html">Contact Us</a></li>
+  <li style="float:right"><a href="Project.html">Home</a></li>
+  
+</ul>   
+<div class="h">
+<h1><font color="gold">About Us</font></h1>
+<h2>STUDYHUB : The Resource You Need</h2>
+</div>
+<div class="about-section">
+<h1 style="text-align:center"><font color="black">Our Team</font></h1>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      
+      <div class="container">
+        <h2><font color="white">Mani Singh</font></h2>
+        
+        <p></p>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      
+      <div class="container">
+        <h2><font color="white">Pallavi Solanki</font></h2>
+        
+        <p></p>
+        
+      </div>
+   </div>
+</div>
+    
+  
+  <div class="column">
+    <div class="card">
+      
+      <div class="container">
+        <h2><font color="white">Shivendu Sharma</font></h2>
+        
+        <p></p>
+      </div>
+   </div>
+</div>
+
+  <div class="column">
+    <div class="card">
+      
+      <div class="container">
+        <h2><font color="white">Vikas Pandey</font></h2>
+        
+        <p></p>       
+      </div>
+    </div>
+   </div>
+</div>
+
+<h1><font color="green">Our Work</font></h1>
+
+<div class="myDiv">
+  
+  <p><font color="Turquoise">Our objectives is to help students in learn more and effectively from the resources of our site through internet.
+ It consists the best material available on certain topics which contain lecture and e-learning videos, practice sheet all accumulate at a single place so an individual can use it intuitively.
+ This is the only way to test the skill and level of the students and help us in providing them better stuffs according to their capturing ability.</font></p>
+</div>
+
+<div class="useful">
+<h3><font color="GreenYellow">How it is Fruitfull</font></h3>
+
+<li>Personalised Learning</li>
+<li>Ease Of Accessibility</li>
+<li>Self-Paced Learning</li>
+</div>
+</div>
+
+
+
+</body>
+</html>
